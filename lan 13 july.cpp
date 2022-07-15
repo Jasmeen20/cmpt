@@ -85,5 +85,18 @@ int main() {
 	//movie1.getmoviename();
 	//movie1.getratingMbba();
 	cout << movie1.getmoviename()
-		<< endl;
+		<< endl;    //"300";
+	cout << movie1.getratingMbba() 
+		<<endl;     //"P";
+	cout << movie1.getAverage() <<
+		endl;
+
+	Moviemovie2("The Tiger");
+	movie2.rating(1);
+	movie2.rating(2);
+	movie2.rating(3);
+	movie2.rating(5);
+	movie2.rating(5);
+
+
 }
