@@ -97,6 +97,12 @@ int main() {
 	movie2.rating(3);
 	movie2.rating(5);
 	movie2.rating(5);
-
+	cout << movie1.getmoviename()
+		<< endl;    //"300";
+	cout << movie1.getratingMbba()
+		<< endl;   //"P"
+	cout << movie1.getAverage()
+		<< endl;
+	return 100;
 
 }
