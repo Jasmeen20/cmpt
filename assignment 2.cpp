@@ -53,5 +53,25 @@ public:
 			cout << "Rational Numbers less than operation is true between two numbers"
 			<< endl;
 		else
-			cout << "Rational Numbers less than 
+			cout << "Rational Numbers less than operation is false between two numbers"
+			<< endl;
+	}
+	int hcf()
+	{
+		int 1, 2, 3;
+		1 = num;
+		2 = den;
+		do
+		{
+			3 = 1 % 2;
+			1 = 2;
+			2 = 3;
+		} while (3 != 0);
+		num = num / 1;
+		den = den / 1;
+	}
+	void print()
+	{
+		cout << "Result is :" << num << "/" << den << endl;
+
 		
