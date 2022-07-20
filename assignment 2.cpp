@@ -73,5 +73,21 @@ public:
 	void print()
 	{
 		cout << "Result is :" << num << "/" << den << endl;
+	}
+};
+int main()
+{
+	RationalNumber n1, n2, n3;
+	n1.read();
+	n2.read();
+	n3.add(n1, n2);
+	n3.print();
+	n3.mul(n1, n2);
+	n3.print();
+	n3.divi(n1, n2);
+	n3.print();
+	n3.lessthan(n1, n2);
+}
+}
 
 		
