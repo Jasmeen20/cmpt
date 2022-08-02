@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class Rational number
+class Rational 
 {
 	int num, den;
 public:
@@ -77,7 +77,7 @@ public:
 };
 int main()
 {
-	RationalNumber n1, n2, n3;
+	Rational n1, n2, n3;
 	n1.read();
 	n2.read();
 	n3.add(n1, n2);
